@@ -1,72 +1,59 @@
-# Aquarium Shop Simulator
+# Development Roadmap
 
-Aquarium Shop Simulator is a single-player, first-person aquarium store management and fish breeding simulation game developed with Unity.
+## Phase 1 — Project Setup
 
-Players start with a small aquarium shop, care for fish, manage water quality, breed guppies and bettas, serve customers, sell aquarium products, and expand the business.
+- Create Unity 6 LTS URP project
+- Configure Git and GitHub
+- Create folder structure
+- Add coding conventions
+- Create test scene
 
-## Core Features
+## Phase 2 — First-Person Prototype
 
-- First-person shop management
-- Guppy and betta breeding
-- Fish genetics, rarity, colors, and fin types
-- Aquarium care and water quality management
-- Customer requests and sales
-- Store expansion and progression
-- Equipment, food, plants, filters, heaters, and decorations
-- Single-player offline gameplay
+- Player movement
+- Mouse look
+- Interaction raycast
+- Object highlighting
+- Basic inventory
 
-## Current Status
+## Phase 3 — Aquarium Prototype
 
-Pre-production and prototype planning.
+- Aquarium prefab
+- Water material
+- Fish swimming behavior
+- Feeding interaction
+- Cleanliness value
+- Fish health
 
-## Engine
+## Phase 4 — Shop and Sales
 
-- Unity 6 LTS
-- Universal Render Pipeline (URP)
-- C#
+- Customer spawning
+- Customer request system
+- Catch fish interaction
+- Checkout and payment
+- Money UI
 
-## First Prototype Goal
+## Phase 5 — Breeding
 
-The first playable prototype will include:
+- Fish sex and age
+- Pregnancy system
+- Fry spawning
+- Growth stages
+- Basic genetics
 
-1. First-person player movement
-2. A small aquarium shop
-3. One working aquarium
-4. Swimming guppies
-5. Feeding and cleaning interactions
-6. A customer purchasing a fish
-7. Basic money and save systems
+## Phase 6 — Progression
 
-## Project Structure
+- Product ordering
+- Shop upgrades
+- Unlocks
+- Reputation
+- Save and load
 
-```text
-Assets/
-  _Project/
-    Art/
-    Audio/
-    Materials/
-    Prefabs/
-    Scenes/
-    Scripts/
-      Core/
-      Player/
-      Aquarium/
-      Fish/
-      Customers/
-      Economy/
-      UI/
-      SaveSystem/
-    ScriptableObjects/
-    UI/
-Docs/
-```
+## Phase 7 — Demo Polish
 
-## Documentation
-
-- [Game Design Document](docs/GDD.md)
-- [Development Roadmap](docs/ROADMAP.md)
-- [Initial Task List](docs/TASKS.md)
-
-## License
-
-All rights reserved. The source code and game assets may not be copied, redistributed, or used commercially without permission from the project owner.
+- Tutorial
+- Sound effects
+- Music
+- Optimization
+- Bug fixing
+- Steam demo preparation

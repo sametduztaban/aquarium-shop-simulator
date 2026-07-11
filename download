@@ -1,0 +1,139 @@
+# Aquarium Shop Simulator — Game Design Document
+
+## 1. Game Overview
+
+**Genre:** First-person shop management and fish breeding simulator  
+**Mode:** Single-player, offline  
+**Platform:** Windows PC  
+**Engine:** Unity 6 LTS with URP
+
+## 2. High Concept
+
+The player starts with a small aquarium shop and grows it by caring for fish, breeding rare varieties, serving customers, selling aquarium supplies, and expanding the store.
+
+## 3. Core Gameplay Loop
+
+1. Order fish and equipment.
+2. Prepare aquariums.
+3. Feed fish and maintain water quality.
+4. Breed selected fish.
+5. Raise and evaluate offspring.
+6. Sell fish and aquarium products.
+7. Earn money and reputation.
+8. Unlock new species, equipment, and shop areas.
+
+## 4. First Playable Version
+
+The first playable version will focus on one complete loop:
+
+- Walk inside the shop.
+- Interact with an aquarium.
+- Add guppies.
+- Feed the fish.
+- Clean the aquarium.
+- Catch a fish with a net.
+- Sell the fish to a customer.
+- Receive money.
+- Save and load progress.
+
+## 5. Fish Systems
+
+### Guppies
+
+- Male and female fish
+- Pregnancy and birth
+- Fry growth stages
+- Color inheritance
+- Tail and fin inheritance
+- Health and lifespan
+- Common, uncommon, rare, and exceptional quality
+
+### Bettas
+
+- Males and females kept separately
+- Breeding tank preparation
+- Bubble nest behavior
+- Egg and fry care
+- Aggression and injury risk
+- Color and fin inheritance
+
+## 6. Aquarium Systems
+
+- Tank volume
+- Temperature
+- Cleanliness
+- Filtration
+- pH
+- Ammonia
+- Nitrite
+- Nitrate
+- Population limit
+- Decorations and plants
+
+The first prototype will use simplified values. Detailed chemistry will be added later.
+
+## 7. Customer System
+
+Customer types may include:
+
+- Beginner aquarium owner
+- Parent buying a fish for a child
+- Guppy breeder
+- Betta collector
+- Aquascaping enthusiast
+- Budget customer
+- Premium customer
+
+Customers can request specific fish, colors, quantities, equipment, or complete aquarium setups.
+
+## 8. Economy
+
+The player earns money by selling:
+
+- Fish
+- Aquariums
+- Filters
+- Heaters
+- Lights
+- Food
+- Plants
+- Substrate
+- Decorations
+- Water conditioners
+- Medicine
+
+Expenses include stock orders, electricity, rent, equipment maintenance, fish losses, and employee wages.
+
+## 9. Progression
+
+The player begins with a small shop and limited equipment. Progress unlocks:
+
+- More aquarium slots
+- Breeding room
+- Quarantine room
+- Storage area
+- Employees
+- Rare fish species
+- Better suppliers
+- Online NPC orders
+- Competitions and exhibitions
+
+## 10. Art Direction
+
+- Stylized realism
+- Clean and colorful aquariums
+- Relaxing atmosphere
+- Clear and readable interfaces
+- Performance suitable for mid-range computers
+
+## 11. Audio Direction
+
+- Aquarium filter and water sounds
+- Shop ambience
+- Customer footsteps and dialogue sounds
+- Calm background music
+- Interaction feedback sounds
+
+## 12. Design Principle
+
+The game should be easy to understand but deep enough for players who enjoy breeding rare fish and optimizing aquarium conditions.
